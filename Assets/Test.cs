@@ -32,12 +32,13 @@ public class Test : MonoBehaviour {
 	void Start () {
 	
 			// 課題配列を宣言してみましょう
-			/*
 			int [] hoge  = {12,34,123,414,242,42};
+			for ( int i = 0 ;  i  < hoge.Length ;  i++) {
+					Debug.Log(hoge[i]);
+			}
 			for ( int i = hoge.Length - 1 ;  i  >= 0 ;  i--) {
 					Debug.Log(hoge[i]);
 			}
-			*/
 			
 			// 発展改題 Bossクラスに、変数mpとMagic関数を作成してStart関数から呼び出し
 			Boss lastboss = new Boss ();
